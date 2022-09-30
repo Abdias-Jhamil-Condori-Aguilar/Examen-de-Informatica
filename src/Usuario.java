@@ -1,2 +1,11 @@
-package PACKAGE_NAME;public class Usuario {
+public class Usuario {
+    String usuario;
+    String contraseña;
+    public Usuario(){
+
+    }
+    public Usuario(String usuario, String contraseña) {
+        this.usuario = usuario;
+        this.contraseña = contraseña;
+    }
 }
